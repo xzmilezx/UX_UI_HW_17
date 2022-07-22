@@ -59,6 +59,10 @@ nav {
   transform: scale(1.3);
 }
 
+img.logo:hover {
+  transform: scale(1.2);
+}
+
 section.heroImg {
   text-align: center;
   vertical-align: middle;
@@ -79,9 +83,7 @@ img.logo {
   top: 1%;
   bottom: 0.74%;
   z-index: 130;
-}
-img.logo:hover {
-  transform: scale(1.2);
+
 }
 
 nav.inline-block {
@@ -112,17 +114,17 @@ p.p1 {
 }
 
 p.p2 {
-  left: -80px;
+  left: -75px;
   top: -690px;
 }
 
 p.p3 {
-  left: 0px;
+  left: 10px;
   top: -730px;
 }
 
 p.p4 {
-  left: 21px;
+  left: 35px;
   top: -770px;
 }
 
@@ -175,14 +177,15 @@ div.circles {
   text-align: center;
   margin-top: 98px;
   /* margin-right: 201px; */
-  margin-left: -166px;
+  margin-left: -140px;
 }
 
 #resume {
   position: relative;
-  left: 400px;
+  left: 425px;
   top: -760px;
   width: 200px;
+  z-index: 80;
 }
 
 div.wrapper {
