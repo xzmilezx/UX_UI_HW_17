@@ -30,8 +30,8 @@
 
 #resume{
 position: absolute;
-right: 40%;
-bottom: 0%;
+right: 44%;
+bottom: 9%;
 }
 .inline-block{
   display: inline-block;
@@ -83,20 +83,21 @@ h2{
 }
 div.circles{
   text-align: center;
-  position:absolute
+  position:absolute;
+  top: 10%;
 }
 p {
   position: absolute;
-  left: 22.92%;
+  left: 12%;
   right: 13.99%;
-  top: 27.32%;
+  top:33%;
   bottom: 20.85%;
   
   font-family: 'Yusei Magic';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 29px;
   text-align: center;
   
   color: #FFFFFF;
@@ -115,7 +116,7 @@ nav {
   padding:1%;
 }
 
-#navbg{
+.navbg{
   width:100%;
   position:fixed;
   top: 0%;
